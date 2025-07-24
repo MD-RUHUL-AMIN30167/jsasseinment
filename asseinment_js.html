@@ -1,0 +1,37 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drink App</title>
+  <link rel="stylesheet" href="asseinment_js.css">
+</head>
+<body>
+  <div class="container">
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Search for a drink...">
+      <button id="searchBtn">Search</button>
+    </div>
+
+    <div class="columns">
+      <div id="drinkColumn" class="column"></div>
+      <div class="column">
+        <h3>Selected Drinks (<span id="drinkCount">0</span>/7)</h3>
+        <ul id="groupList"></ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2 id="modalTitle"></h2>
+      <p id="modalInfo"></p>
+    </div>
+  </div>
+
+  <script src="asseinment_js.js"></script>
+</body>
+</html>
